@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">날씨 왕</string>
+
+    <string name="action_share">몫</string>
+    <string name="action_settings">환경 설정</string>
+    <string name="action_refresh">지금 동기화</string>
+    <string name="action_gps">위치 가져 오기</string>
+    <string name="action_maps">지도 위치</string>
+
+    <string name="title_activity_main">날씨</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">환경 설정</string>
+
+
+    <!-- Strings related to ProgressDialog -->
+    <string name="progressDialogMessage">날씨 로드 중 ...</string>
+    <string name="progressDialogGPSMessage">검색 위치 잠시 기다려주세요 ...</string>
+
+    <!-- Strings related to GPS -->
+    <string name="gpsYes">예</string>
+    <string name="gpsNo">아니</string>
+    <string name="gpsRetry">다시 해 보다</string>
+    <string name="gpsAbort">중단</string>
+    <string name="gpsMessage">위치 검색 은 너무 많은 시간을 복용</string>
+    <string name="gpsNotEnabled">당신의 GPS 는 당신이 그것을 사용 하고 싶어 , 사용하지 ?</string>
+
+    <!-- Strings related to Settings -->
+    <!-- Weather settings -->
+    <string name="pref_title_basic">위치</string>
+    <string name="pref_header_basic">날씨 설정</string>
+    <string name="hint_location">도시 이름 | 우편 번호</string>
+    <string name="pref_title_basic_list">온도</string>
+
+    <!-- Date label when displaying today's weather forecast [CHAR LIMIT=20] -->
+    <string name="today">오늘</string>
+
+    <!-- Date label when displaying tomorrow's weather forecast [CHAR LIMIT=20] -->
+    <string name="tomorrow">내일</string>
+
+    <!-- Date format for displaying day of week and date (i.e. Mon Jun 1) [CHAR LIMIT=20] -->
+    <string name="format_full_friendly_date"><xliff:g id="day">%1$s</xliff:g>, <xliff:g id="date">%2$s</xliff:g></string>
+
+    <!-- Wind -->
+    <string name="wind">바람:</string>
+
+    <!-- Pressure-->
+    <string name="pressure">압박:</string>
+
+    <!-- Humidity-->
+    <string name="humidity">습기:</string>
+
+    <!-- Settings for Notifications -->
+    <string name="pref_title_notifications">알림</string>
+
+    <!-- Notification Format -->
+    <string name="format_notification">
+    <xliff:g id="city">%1$s</xliff:g>=> <xliff:g id="date">%2$s</xliff:g> 예보: <xliff:g id="condition">%3$s</xliff:g>
+        높은: <xliff:g id="high">%4$s</xliff:g> 낮은: <xliff:g id="low">%5$s</xliff:g>
+    </string>
+    <string name="format_notification_pre16">
+        <xliff:g id="date">%2$s</xliff:g> 예보: <xliff:g id="condition">%2$s</xliff:g>
+    </string>
+
+    <!-- Strings related to empty weather -->
+    <string name="empty_weather_string">사용할 수있는 날씨 정보 없음</string>
+    <string name="empty_forecast_list_server_down">사용할 수있는 날씨 정보가 없습니다. 서버는 데이터를 반환하지 않습니다 .</string>
+    <string name="empty_forecast_list_server_error">사용할 수있는 날씨 정보가 없습니다. 서버는 유효한 데이터를 반환하지 않습니다 .</string>
+    <string name="no_internet_weather_string">인터넷에 연결 하지 않습니다. 날씨 데이터를 가져올 수 없습니다.</string>
+    <string name="no_internet">인터넷에 연결 하지 않습니다.</string>
+    <string name="no_valid_application">더 적합한 응용 프로그램은이 기능을 처리하는 결과가 없습니다.</string>
+    <string name="empty_forecast_invalid_location">데이터가없는 등의 잘못된 지정된 위치는 서버에서 반환됩니다.</string>
+
+    <!--Strings related to widget-->
+    <string name="widget_today_title">오늘 \'의 날씨</string>
+    <string name="title_activity_spash_screen">SplashScreen로</string>
+
+    <!--Strings related to marshmallow permission-->
+    <string name="marshmallow_permission_msg">에 응용 프로그램 액세스 <xliff:g id="service">%1$s</xliff:g> 서비스가 취소되었습니다 .
+    동일한 을 사용하려면 응용 프로그램 Info- > 권한 으로 이동합니다.</string>
+    <string name="marshmallowPositive">그래</string>
+    <string name="marshmallowNegative">취소</string>
+
+    <!--Strings related to weather desc-->
+    <string name="w_2xx">뇌우</string>
+    <string name="w_3xx">이슬비</string>
+    <string name="w_5xx">비</string>
+    <string name="w_6xx">눈</string>
+    <string name="w_7xx">분위기</string>
+    <string name="w_800">명확한</string>
+    <string name="w_80x">구름</string>
+    <string name="w_90x">극단</string>
+    <string name="w_9xx">바람</string>
+
+    <!--Strings related to weather detailed desc-->
+    <!--Thunderstorm-->
+    <string name="wd_200">빛 비 와 뇌우</string>
+    <string name="wd_201">비 와 뇌우</string>
+    <string name="wd_202">폭우 와 뇌우</string>
+    <string name="wd_210">빛 뇌우</string>
+    <string name="wd_211">뇌우</string>
+    <string name="wd_212">무거운 뇌우</string>
+    <string name="wd_221">비정형 뇌우</string>
+    <string name="wd_230">빛 이슬비 뇌우</string>
+    <string name="wd_231">이슬비 뇌우</string>
+    <string name="wd_232">무거운 이슬비 뇌우</string>
+    <!--Drizzle-->
+    <string name="wd_300">광 강도 이슬비</string>
+    <string name="wd_301">이슬비</string>
+    <string name="wd_302">무거운 강도 이슬비</string>
+    <string name="wd_310">광 강도 이슬비 비</string>
+    <string name="wd_311">이슬비 비</string>
+    <string name="wd_312">무거운 강도 이슬비 비</string>
+    <string name="wd_313">샤워 비와 이슬비</string>
+    <string name="wd_314">무거운 샤워 비와 이슬비</string>
+    <string name="wd_321">샤워 이슬비</string>
+    <!--Rain-->
+    <string name="wd_500">빛 비</string>
+    <string name="wd_501">적당한 비</string>
+    <string name="wd_502">무거운 강도 비</string>
+    <string name="wd_503">매우 무거운 비</string>
+    <string name="wd_504">극단적 인 비</string>
+    <string name="wd_511">냉동 비</string>
+    <string name="wd_520">빛의 강도 샤워 비</string>
+    <string name="wd_521">샤워 비</string>
+    <string name="wd_522">무거운 강도 비</string>
+    <string name="wd_531">비정형 샤워 비</string>
+    <!--Snow-->
+    <string name="wd_600">빛 눈</string>
+    <string name="wd_601">눈</string>
+    <string name="wd_602">폭설</string>
+    <string name="wd_611">진눈깨비</string>
+    <string name="wd_612">샤워 진눈깨비</string>
+    <string name="wd_615">빛 비와 눈</string>
+    <string name="wd_616">비와 눈</string>
+    <string name="wd_620">가벼운 샤워 눈</string>
+    <string name="wd_621">샤워 눈</string>
+    <string name="wd_622">무거운 샤워 눈</string>
+    <!--Atmosphere-->
+    <string name="wd_701">안개</string>
+    <string name="wd_711">연기</string>
+    <string name="wd_721">안개</string>
+    <string name="wd_731">모래, 먼지 소용돌이</string>
+    <string name="wd_741">안개</string>
+    <string name="wd_751">모래</string>
+    <string name="wd_761">먼지</string>
+    <string name="wd_762">화산재</string>
+    <string name="wd_771">돌풍</string>
+    <string name="wd_781">폭풍</string>
+    <!--Clear-->
+    <string name="wd_800">맑은 하늘</string>
+    <!--Clouds-->
+    <string name="wd_801">몇 구름</string>
+    <string name="wd_802">흩어져있는 구름</string>
+    <string name="wd_803">깨진 구름</string>
+    <string name="wd_804">흐린 구름</string>
+    <!--Extreme-->
+    <string name="wd_900">폭풍</string>
+    <string name="wd_901">열대 폭풍우</string>
+    <string name="wd_902">허리케인</string>
+    <string name="wd_903">감기</string>
+    <string name="wd_904">뜨거운</string>
+    <string name="wd_905">깜짝 놀란</string>
+    <string name="wd_906">빗발</string>
+    <!--Wind-->
+    <string name="wd_951">고요한</string>
+    <string name="wd_952">빛 바람</string>
+    <string name="wd_953">산들 바람</string>
+    <string name="wd_954">적당한 바람</string>
+    <string name="wd_955">신선한 바람</string>
+    <string name="wd_956">강한 바람</string>
+    <string name="wd_957">높은 바람, 가까운 강풍</string>
+    <string name="wd_958">강풍</string>
+    <string name="wd_959">심한 강풍</string>
+    <string name="wd_960">폭풍</string>
+    <string name="wd_961">폭력 폭풍</string>
+    <string name="wd_962">허리케인</string>
+
+</resources>

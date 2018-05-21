@@ -1,0 +1,228 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Weather King</string>
+    <string name="action_settings">Preferences</string>
+    <string name="action_share">Share</string>
+    <string name="action_refresh">Sync Now</string>
+    <string name="action_gps">Get Location</string>
+    <string name="action_maps">Map Location</string>
+    <string name="title_activity_main">Weather</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">Preferences</string>
+    <string name="provider_Name">com.vilakshan.weathermaster/WeatherProvider</string>
+
+    <!-- Strings related to ProgressDialog -->
+    <string name="progressDialogMessage">Loading weather…</string>
+    <string name="progressDialogGPSMessage">Retrieving location please wait…</string>
+
+    <!-- Strings related to GPS -->
+    <string name="gpsYes">Yes</string>
+    <string name="gpsNo">No</string>
+    <string name="gpsRetry">Retry</string>
+    <string name="gpsAbort">Abort</string>
+    <string name="gpsMessage">Location retrieval is taking too much time</string>
+    <string name="gpsNotEnabled">Your GPS is disabled, do you want to enable it?</string>
+
+    <!-- Strings related to Settings -->
+    <!-- Weather settings -->
+    <string name="pref_key_basic">Location_Setting</string>
+    <string name="pref_key_city_name">City_Name</string>
+    <string name="pref_title_basic">Location</string>
+    <string name="pref_default_value_basic"></string>
+    <string name="pref_header_basic">Weather Settings</string>
+    <string name="hint_location">City Name | Postal Code</string>
+
+    <string name="pref_key_basic_list">Unit_Setting</string>
+    <string name="pref_title_basic_list">Temperature</string>
+    <string name="pref_default_value_basic_list">\u00B0C</string>
+    <string name="pref_units_metric">\u00B0C</string>
+    <string name="pref_units_imperial">\u00B0F</string>
+
+    <string-array name="pref_basic_temp_list">
+        <item>\u00B0C</item>
+        <item>\u00B0F</item>
+    </string-array>
+    <string-array name="pref_basic_temp_list_values">
+        <item>\u00B0C</item>
+        <item>\u00B0F</item>
+    </string-array>
+
+    <!-- Date label when displaying today's weather forecast [CHAR LIMIT=20] -->
+    <string name="today">Today</string>
+
+    <!-- Date label when displaying tomorrow's weather forecast [CHAR LIMIT=20] -->
+    <string name="tomorrow">Tomorrow</string>
+
+    <!-- Date format for displaying day of week and date (i.e. Mon Jun 1) [CHAR LIMIT=20] -->
+    <string name="format_full_friendly_date"><xliff:g id="day">%1$s</xliff:g>, <xliff:g id="date">%2$s</xliff:g></string>
+    <!-- Temperature formats in degrees [CHAR LIMIT=NONE] -->
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+    <!-- Windspeed formats -->
+    <!-- Wind in mph [CHAR LIMIT=25] -->
+    <string name="format_wind_mph">
+        <xliff:g id="speed">%1$1.0f</xliff:g> mph <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+    <!-- Wind in kph [CHAR LIMIT=25] -->
+    <string name="wind">Wind:</string>
+    <string name="format_wind_kmh">
+        <xliff:g id="speed">%1$1.0f</xliff:g> km/h <xliff:g id="direction">%2$s</xliff:g>
+    </string>
+
+    <!-- Pressure format CHAR LIMIT=25] -->
+    <string name="pressure">Pressure:</string>
+    <string name="format_pressure"><xliff:g id="pressure">%1.0f</xliff:g> hPa</string>
+
+    <!-- Humidity format CHAR LIMIT=25]-->
+    <string name="humidity">Humidity:</string>
+    <string name="format_humidity"><xliff:g id="humidity">%1.0f</xliff:g> %%</string>
+
+    <!-- Settings for Notifications -->
+    <string name="pref_key_notifications">Note_Key</string>
+
+    <string name="pref_title_notifications">Notifications</string>
+
+    <string name="pref_default_notifications">true</string>
+
+    <!-- Account type (for sync-adapter authenticator) -->
+    <!-- SyncAdapter related -->
+    <string name="sync_account_type">weathermaster.vilakshan.com</string>
+    <string name="content_authority">com.vilakshan.weathermaster</string>
+    <!-- Notification Format -->
+    <string name="format_notification">
+    <xliff:g id="city">%1$s</xliff:g>=> <xliff:g id="date">%2$s</xliff:g> Forecast: <xliff:g id="condition">%3$s</xliff:g>
+        High: <xliff:g id="high">%4$s</xliff:g> Low: <xliff:g id="low">%5$s</xliff:g>
+    </string>
+    <string name="format_notification_pre16">
+        <xliff:g id="date">%1$s</xliff:g> Forecast: <xliff:g id="condition">%2$s</xliff:g>
+    </string>
+    <!-- Strings related to Notification preference -->
+    <string name="pref_last_notification">last_notification
+    </string>
+    <!-- Strings related to empty weather -->
+    <string name="empty_weather_string">No weather information available</string>
+    <string name="empty_forecast_list_server_down">No weather information available. The server is not returning data.</string>
+    <string name="empty_forecast_list_server_error">No weather information available. The server is not returning valid data.</string>
+    <string name="no_internet_weather_string">No internet connection. Unable to fetch weather data.</string>
+    <string name="no_internet">No internet connection.</string>
+    <string name="no_valid_application">No suitable applications found to handle this functionality.</string>
+    <string name="empty_forecast_invalid_location">Invalid specified location as no data is returned from the server.</string>
+    <!-- Strings related to shared preference of current location status -->
+    <string name="key_location_preference">LocationPreference</string>
+
+    <!-- Strings related to Open Weather Map API key -->
+    <string name="key_owm_api">OWM</string>
+
+    <!-- Strings related to Icon Name key -->
+    <string name="key_icon_name">Icon</string>
+
+    <!-- Strings used when displaying the state of the Location in settings [Not used right now] -->
+    <string name="pref_location_error_description">Invalid Location
+        (<xliff:g id="location_setting">%1$s</xliff:g>)"</string>
+    <string name="pref_location_unknown_description">Validating Location…
+        (<xliff:g id="location_setting">%1$s</xliff:g>)"</string>
+
+    <!--Strings related to widget-->
+    <string name="widget_today_title">Today\'s Weather</string>
+    <string name="title_activity_spash_screen">SplashScreen</string>
+
+    <!--Strings related to marshmallow permission-->
+    <string name="marshmallow_permission_msg">App access to <xliff:g id="service">%1$s</xliff:g> service has been revoked.
+    To enable the same, go to App Info->Permissions.</string>
+    <string name="marshmallowPositive">OK</string>
+    <string name="marshmallowNegative">Cancel</string>
+
+    <!--Strings related to weather desc-->
+    <string name="w_2xx">Thunderstorm</string>
+    <string name="w_3xx">Drizzle</string>
+    <string name="w_5xx">Rain</string>
+    <string name="w_6xx">Snow</string>
+    <string name="w_7xx">Atmosphere</string>
+    <string name="w_800">Clear</string>
+    <string name="w_80x">Clouds</string>
+    <string name="w_90x">Extreme</string>
+    <string name="w_9xx">Wind</string>
+
+    <!--Strings related to weather detailed desc-->
+    <!--Thunderstorm-->
+    <string name="wd_200">thunderstorm with light rain</string>
+    <string name="wd_201">thunderstorm with rain</string>
+    <string name="wd_202">thunderstorm with heavy rain</string>
+    <string name="wd_210">light thunderstorm</string>
+    <string name="wd_211">thunderstorm</string>
+    <string name="wd_212">heavy thunderstorm</string>
+    <string name="wd_221">ragged thunderstorm</string>
+    <string name="wd_230">thunderstorm with light drizzle</string>
+    <string name="wd_231">thunderstorm with drizzle</string>
+    <string name="wd_232">thunderstorm with heavy drizzle</string>
+    <!--Drizzle-->
+    <string name="wd_300">light intensity drizzle</string>
+    <string name="wd_301">drizzle</string>
+    <string name="wd_302">heavy intensity drizzle</string>
+    <string name="wd_310">light intensity drizzle rain</string>
+    <string name="wd_311">drizzle rain</string>
+    <string name="wd_312">heavy intensity drizzle rain</string>
+    <string name="wd_313">shower rain and drizzle</string>
+    <string name="wd_314">heavy shower rain and drizzle</string>
+    <string name="wd_321">shower drizzle</string>
+    <!--Rain-->
+    <string name="wd_500">light rain</string>
+    <string name="wd_501">moderate rain</string>
+    <string name="wd_502">heavy intensity rain</string>
+    <string name="wd_503">very heavy rain</string>
+    <string name="wd_504">extreme rain</string>
+    <string name="wd_511">freezing rain</string>
+    <string name="wd_520">light intensity shower rain</string>
+    <string name="wd_521">shower rain</string>
+    <string name="wd_522">heavy intensity rain</string>
+    <string name="wd_531">ragged shower rain</string>
+    <!--Snow-->
+    <string name="wd_600">light snow</string>
+    <string name="wd_601">snow</string>
+    <string name="wd_602">heavy snow</string>
+    <string name="wd_611">sleet</string>
+    <string name="wd_612">shower sleet</string>
+    <string name="wd_615">light rain and snow</string>
+    <string name="wd_616">rain and snow</string>
+    <string name="wd_620">light shower snow</string>
+    <string name="wd_621">shower snow</string>
+    <string name="wd_622">heavy shower snow</string>
+    <!--Atmosphere-->
+    <string name="wd_701">mist</string>
+    <string name="wd_711">smoke</string>
+    <string name="wd_721">haze</string>
+    <string name="wd_731">sand,dust whirls</string>
+    <string name="wd_741">fog</string>
+    <string name="wd_751">sand</string>
+    <string name="wd_761">dust</string>
+    <string name="wd_762">volcanic ash</string>
+    <string name="wd_771">squalls</string>
+    <string name="wd_781">tornado</string>
+    <!--Clear-->
+    <string name="wd_800">clear sky</string>
+    <!--Clouds-->
+    <string name="wd_801">few clouds</string>
+    <string name="wd_802">scattered clouds</string>
+    <string name="wd_803">broken clouds</string>
+    <string name="wd_804">overcast clouds</string>
+    <!--Extreme-->
+    <string name="wd_900">tornado</string>
+    <string name="wd_901">tropical storm</string>
+    <string name="wd_902">hurricane</string>
+    <string name="wd_903">cold</string>
+    <string name="wd_904">hot</string>
+    <string name="wd_905">windy</string>
+    <string name="wd_906">hail</string>
+    <!--Wind-->
+    <string name="wd_951">calm</string>
+    <string name="wd_952">light breeze</string>
+    <string name="wd_953">gentle breeze</string>
+    <string name="wd_954">moderate breeze</string>
+    <string name="wd_955">fresh breeze</string>
+    <string name="wd_956">strong breeze</string>
+    <string name="wd_957">high wind, near gale</string>
+    <string name="wd_958">gale</string>
+    <string name="wd_959">severe gale</string>
+    <string name="wd_960">storm</string>
+    <string name="wd_961">violent storm</string>
+    <string name="wd_962">hurricane</string>
+</resources>

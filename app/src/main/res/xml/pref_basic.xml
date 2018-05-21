@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.vilakshan.weathermaster"
+    >
+    <com.vilakshan.weathermaster.views.LocationEditTextPreference
+        custom:minLength="3"
+        android:key="@string/pref_key_basic"
+        android:title="@string/pref_title_basic"
+        android:defaultValue="@string/pref_default_value_basic"
+        android:selectAllOnFocus="true"
+        android:inputType="text"
+        android:capitalize="none"
+        android:singleLine="true"
+        android:maxLines="1"
+        />
+    <ListPreference
+        android:key="@string/pref_key_basic_list"
+        android:title="@string/pref_title_basic_list"
+        android:defaultValue="@string/pref_default_value_basic_list"
+        android:entries="@array/pref_basic_temp_list"
+        android:entryValues="@array/pref_basic_temp_list_values"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null" />
+    <CheckBoxPreference
+        android:key="@string/pref_key_notifications"
+        android:title="@string/pref_title_notifications"
+        android:defaultValue="@string/pref_default_notifications"
+        />
+
+</PreferenceScreen>

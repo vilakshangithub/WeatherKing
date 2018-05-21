@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Погода король</string>
+
+    <string name="action_share">Поделиться</string>
+    <string name="action_settings">предпочтения</string>
+    <string name="action_refresh">обновление</string>
+    <string name="action_gps">Получить Место</string>
+    <string name="action_maps">карта Расположение на карте</string>
+
+    <string name="title_activity_main">Погода</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">предпочтения</string>
+
+
+    <!-- Strings related to ProgressDialog -->
+    <string name="progressDialogMessage">Загрузка погода...</string>
+    <string name="progressDialogGPSMessage">Получение расположение подождите...</string>
+
+    <!-- Strings related to GPS -->
+    <string name="gpsYes">да</string>
+    <string name="gpsNo">Нет</string>
+    <string name="gpsRetry">Повторите</string>
+    <string name="gpsAbort">выкинуть</string>
+    <string name="gpsMessage">Поиск Место занимает слишком много времени</string>
+    <string name="gpsNotEnabled">Ваш GPS отключен, вы хотите , чтобы включить его?</string>
+
+    <!-- Strings related to Settings -->
+    <!-- Weather settings -->
+    <string name="pref_title_basic">Место нахождения</string>
+    <string name="pref_header_basic">Погода настройки</string>
+    <string name="hint_location">название города | Почтовый индекс</string>
+    <string name="pref_title_basic_list">температура</string>
+
+    <!-- Date label when displaying today's weather forecast [CHAR LIMIT=20] -->
+    <string name="today">Cегодня</string>
+
+    <!-- Date label when displaying tomorrow's weather forecast [CHAR LIMIT=20] -->
+    <string name="tomorrow">Завтра</string>
+
+    <!-- Date format for displaying day of week and date (i.e. Mon Jun 1) [CHAR LIMIT=20] -->
+    <string name="format_full_friendly_date"><xliff:g id="day">%1$s</xliff:g>, <xliff:g id="date">%2$s</xliff:g></string>
+
+    <!-- Wind -->
+    <string name="wind">ветер:</string>
+
+    <!-- Pressure-->
+    <string name="pressure">давление:</string>
+
+    <!-- Humidity-->
+    <string name="humidity">влажность:</string>
+
+    <!-- Settings for Notifications -->
+    <string name="pref_title_notifications">Уведомления</string>
+
+    <!-- Notification Format -->
+    <string name="format_notification">
+    <xliff:g id="city">%1$s</xliff:g>=> <xliff:g id="date">%2$s</xliff:g> Прогноз: <xliff:g id="condition">%3$s</xliff:g>
+        Высокая: <xliff:g id="high">%4$s</xliff:g> Низкий: <xliff:g id="low">%5$s</xliff:g>
+    </string>
+    <string name="format_notification_pre16">
+        <xliff:g id="date">%2$s</xliff:g> Прогноз: <xliff:g id="condition">%2$s</xliff:g>
+    </string>
+
+    <!-- Strings related to empty weather -->
+    <string name="empty_weather_string">Нет информации погоде.</string>
+    <string name="empty_forecast_list_server_down">Нет информации погоде. Сервер не возвращает данные.</string>
+    <string name="empty_forecast_list_server_error">Нет информации погоде. Сервер не возвращает допустимые данные.</string>
+    <string name="no_internet_weather_string">Нет соединения с интернетом. Невозможно получить данные о погоде.</string>
+    <string name="no_internet">Нет соединения с интернетом.</string>
+    <string name="no_valid_application">Нет подходящих приложений не найдено справиться с этой функциональности.</string>
+    <string name="empty_forecast_invalid_location">Неверный указанное место , как нет сведений возвращается с сервера.</string>
+
+    <!--Strings related to widget-->
+    <string name="widget_today_title">Сегодняшние Погода</string>
+    <string name="title_activity_spash_screen">Заставка</string>
+
+    <!--Strings related to marshmallow permission-->
+    <string name="marshmallow_permission_msg">App доступ к <xliff:g id="service">%1$s</xliff:g> Служба была отозвана .
+    Чтобы включить то же самое, перейти по App info- > Полномочия .</string>
+    <string name="marshmallowPositive">ОК</string>
+    <string name="marshmallowNegative">Отмена</string>
+
+    <!--Strings related to weather desc-->
+    <string name="w_2xx">Гроза</string>
+    <string name="w_3xx">изморось</string>
+    <string name="w_5xx">дождь</string>
+    <string name="w_6xx">Снег</string>
+    <string name="w_7xx">атмосфера</string>
+    <string name="w_800">Очистить</string>
+    <string name="w_80x">Облака</string>
+    <string name="w_90x">крайняя</string>
+    <string name="w_9xx">ветер</string>
+
+    <!--Strings related to weather detailed desc-->
+    <!--Thunderstorm-->
+    <string name="wd_200">грозы небольшой дождь</string>
+    <string name="wd_201">гроза с дождем</string>
+    <string name="wd_202">гроза с сильным дождем</string>
+    <string name="wd_210">Небольшая гроза</string>
+    <string name="wd_211">гроза</string>
+    <string name="wd_212">тяжелый гроза</string>
+    <string name="wd_221">оборванный thunderstorm</string>
+    <string name="wd_230">гроза с дождем света</string>
+    <string name="wd_231">гроза с дождем</string>
+    <string name="wd_232">гроза с сильным дождем</string>
+    <!--Drizzle-->
+    <string name="wd_300">мелкий дождь интенсивность</string>
+    <string name="wd_301">изморось</string>
+    <string name="wd_302">дождь тяжелая интенсивность</string>
+    <string name="wd_310">Интенсивность света дождь дождь</string>
+    <string name="wd_311">дождь дождь</string>
+    <string name="wd_312">тяжелая интенсивность дождь дождь</string>
+    <string name="wd_313">ливень и дождь</string>
+    <string name="wd_314">ливень дождь и дождь</string>
+    <string name="wd_321">душ изморось</string>
+    <!--Rain-->
+    <string name="wd_500">легкий дождь</string>
+    <string name="wd_501">небольшой дождь</string>
+    <string name="wd_502">дождь тяжелая интенсивность</string>
+    <string name="wd_503">очень сильный дождь</string>
+    <string name="wd_504">крайняя дождь</string>
+    <string name="wd_511">ледяной дождь</string>
+    <string name="wd_520">Интенсивность света ливень</string>
+    <string name="wd_521">ливень</string>
+    <string name="wd_522">дождь тяжелая интенсивность</string>
+    <string name="wd_531">оборванные ливень</string>
+    <!--Snow-->
+    <string name="wd_600">небольшой снег</string>
+    <string name="wd_601">снег</string>
+    <string name="wd_602">снегопад</string>
+    <string name="wd_611">мокрый снег</string>
+    <string name="wd_612">душ мокрый снег</string>
+    <string name="wd_615">дождь и снег</string>
+    <string name="wd_616">дождь со снегом</string>
+    <string name="wd_620">свет душ снег</string>
+    <string name="wd_621">душ снег</string>
+    <string name="wd_622">ливень снег</string>
+    <!--Atmosphere-->
+    <string name="wd_701">туман</string>
+    <string name="wd_711">дым</string>
+    <string name="wd_721">мгла</string>
+    <string name="wd_731">песок, кружится пыль</string>
+    <string name="wd_741">туман</string>
+    <string name="wd_751">песок</string>
+    <string name="wd_761">пыли</string>
+    <string name="wd_762">вулканический пепел</string>
+    <string name="wd_771">шквалы</string>
+    <string name="wd_781">торнадо</string>
+    <!--Clear-->
+    <string name="wd_800">чистое небо</string>
+    <!--Clouds-->
+    <string name="wd_801">несколько облака</string>
+    <string name="wd_802">рассеянные облака</string>
+    <string name="wd_803">разорванные облака</string>
+    <string name="wd_804">пасмурно облака</string>
+    <!--Extreme-->
+    <string name="wd_900">торнадо</string>
+    <string name="wd_901">тропическая буря</string>
+    <string name="wd_902">ураган</string>
+    <string name="wd_903">холодно</string>
+    <string name="wd_904">горячий</string>
+    <string name="wd_905">ветреный</string>
+    <string name="wd_906">град</string>
+    <!--Wind-->
+    <string name="wd_951">спокойствие</string>
+    <string name="wd_952">легкий ветер</string>
+    <string name="wd_953">нежный бриз</string>
+    <string name="wd_954">умеренный ветер</string>
+    <string name="wd_955">свежий ветер</string>
+    <string name="wd_956">сильный ветер</string>
+    <string name="wd_957">Сильный ветер , рядом ветер</string>
+    <string name="wd_958">шторм</string>
+    <string name="wd_959">тяжелой штормовой</string>
+    <string name="wd_960">буря</string>
+    <string name="wd_961">сильный шторм</string>
+    <string name="wd_962">ураган</string>
+
+</resources>

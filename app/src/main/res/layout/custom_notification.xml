@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:drawable/screen_background_dark_transparent">
+    <ImageView
+        android:id="@+id/notify_icon"
+        android:layout_width="@dimen/notify_icon"
+        android:layout_height="@dimen/notify_icon"
+        tools:src="@drawable/ic_storm"
+        android:adjustViewBounds="true"
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:id="@+id/notify_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/notify_header"
+        android:text="@string/app_name"
+        android:layout_toRightOf="@id/notify_icon"
+        />
+    <TextView
+        android:id="@+id/notify_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/notify_body"
+        tools:text="Today's weather-> Forecast: Clear High: 23o Low: 10o"
+        android:layout_below="@id/notify_header"
+        android:layout_toRightOf="@id/notify_icon"
+        />
+</RelativeLayout>

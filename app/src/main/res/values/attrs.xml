@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LocationEditTextPreference">
+        <attr name="minLength" format="integer"></attr>
+    </declare-styleable>
+    <declare-styleable name="MainActivityFragment">
+        <attr name="android:choiceMode"></attr>
+        <attr name="autoSelectVIew" format="boolean"></attr>
+        <attr name="sharedElementTransitions" format="boolean"></attr>
+    </declare-styleable>
+</resources>

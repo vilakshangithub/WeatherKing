@@ -1,0 +1,44 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="notification_large_icon_default">48dp</dimen>
+    <dimen name="forecast_detail_horizontal_padding">32dp</dimen>
+    <dimen name="forecast_text_width">50dp</dimen>
+    <dimen name="forecast_temperature_space">10dp</dimen>
+    <dimen name="forecast_text_size">25sp</dimen>
+
+    <!-- Detail Fragment text sizes -->
+    <dimen name="primary_txt_size">72sp</dimen>
+    <dimen name="secondary_txt_size">20sp</dimen>
+    <dimen name="secondary_txt_size_2">30sp</dimen>
+
+    <!-- Icon Sizes -->
+    <dimen name="today_icon_height">130dp</dimen>
+    <dimen name="notify_icon">70dp</dimen>
+    <dimen name="forecast_icon">40dp</dimen>
+    <dimen name="home_icon">30dp</dimen>
+
+    <!-- Extra Padding -->
+    <dimen name="detail_view_extra_padding">@dimen/abc_list_item_padding_horizontal_material</dimen>
+    <dimen name="cityNamePadding">5dp</dimen>
+    <dimen name="cityNameSize">20sp</dimen>
+
+    <!-- Widget Parameters -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="widget_weather_desc">25sp</dimen>
+    <dimen name="widget_weather_loc">18sp</dimen>
+    <dimen name="widget_high_temp">30sp</dimen>
+    <dimen name="widget_low_temp">20sp</dimen>
+
+    <!-- Notification Parameters -->
+    <dimen name="notify_header">18sp</dimen>
+    <dimen name="notify_body">13sp</dimen>
+
+    <!-- Splash Screen Paramters -->
+    <dimen name="icon_margin">80dp</dimen>
+    <dimen name="icon_margin_between">160dp</dimen>
+
+</resources>

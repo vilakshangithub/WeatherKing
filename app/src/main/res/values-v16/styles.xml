@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.BaseText.Dark" parent="AppTheme">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="AppTheme.BaseText.Light" parent="AppTheme">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+</resources>

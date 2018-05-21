@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.1"
+
+    defaultConfig {
+        applicationId "com.vilakshan.weathermaster"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 2
+        versionName "2.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildTypes.each {
+        def MyOpenWeatherMapApiKey = "\"f4b3d2ded930dc6440894e97651ab30b\"";
+        def MyOpenWeatherMapApiKey2 = "\"3b2114b4fe4acf31023ee4d0bd286d83\"";
+        def MyOpenWeatherMapApiKey3 = "\"345244bbeb2bca50363885f628fe0fcd\"";
+        it.buildConfigField "String", "OPEN_WEATHER_MAP_API_KEY", MyOpenWeatherMapApiKey
+        it.buildConfigField "String", "OPEN_WEATHER_MAP_API_KEY_2", MyOpenWeatherMapApiKey2
+        it.buildConfigField "String", "OPEN_WEATHER_MAP_API_KEY_3", MyOpenWeatherMapApiKey3
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.android.support:design:25.0.1'
+    compile 'com.android.support:support-annotations:25.0.1'
+    compile 'com.android.support:support-v4:25.0.1'
+    compile 'com.android.support:gridlayout-v7:25.0.1'
+    compile 'com.android.support:recyclerview-v7:25.0.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.google.code.gson:gson:2.7'
+}

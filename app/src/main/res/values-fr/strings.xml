@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Météo roi</string>
+
+    <string name="action_share">Partager</string>
+    <string name="action_settings">préférences</string>
+    <string name="action_refresh">Synchroniser maintenant</string>
+    <string name="action_gps">Obtenez Localisation</string>
+    <string name="action_maps">carte Emplacement</string>
+
+    <string name="title_activity_main">Météo</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">préférences</string>
+
+
+    <!-- Strings related to ProgressDialog -->
+    <string name="progressDialogMessage">Chargement météo ...</string>
+    <string name="progressDialogGPSMessage">emplacement Récupération s\'il vous plaît patienter ...</string>
+
+    <!-- Strings related to GPS -->
+    <string name="gpsYes">Oui</string>
+    <string name="gpsNo">Non</string>
+    <string name="gpsRetry">Recommencez</string>
+    <string name="gpsAbort">Avorter</string>
+    <string name="gpsMessage">récupération de Localisation prend trop de temps</string>
+    <string name="gpsNotEnabled">Votre GPS est désactivé , vous voulez l\'activer?</string>
+
+    <!-- Strings related to Settings -->
+    <!-- Weather settings -->
+    <string name="pref_title_basic">Emplacement</string>
+    <string name="pref_header_basic">Paramètres météo</string>
+    <string name="hint_location">Nom de la ville | code postal</string>
+    <string name="pref_title_basic_list">Température</string>
+
+    <!-- Date label when displaying today's weather forecast [CHAR LIMIT=20] -->
+    <string name="today">Aujourd\'hui</string>
+
+    <!-- Date label when displaying tomorrow's weather forecast [CHAR LIMIT=20] -->
+    <string name="tomorrow">Demain</string>
+
+    <!-- Date format for displaying day of week and date (i.e. Mon Jun 1) [CHAR LIMIT=20] -->
+    <string name="format_full_friendly_date"><xliff:g id="day">%1$s</xliff:g>, <xliff:g id="date">%2$s</xliff:g></string>
+
+    <!-- Wind -->
+    <string name="wind">Vent:</string>
+
+    <!-- Pressure-->
+    <string name="pressure">Pression:</string>
+
+    <!-- Humidity-->
+    <string name="humidity">Humidité:</string>
+
+    <!-- Settings for Notifications -->
+    <string name="pref_title_notifications">notifications</string>
+
+    <!-- Notification Format -->
+    <string name="format_notification">
+    <xliff:g id="city">%1$s</xliff:g>=> <xliff:g id="date">%2$s</xliff:g> Prévoir: <xliff:g id="condition">%3$s</xliff:g>
+        Haute: <xliff:g id="high">%4$s</xliff:g> Faible: <xliff:g id="low">%5$s</xliff:g>
+    </string>
+    <string name="format_notification_pre16">
+        <xliff:g id="date">%2$s</xliff:g> Prévoir: <xliff:g id="condition">%2$s</xliff:g>
+    </string>
+
+    <!-- Strings related to empty weather -->
+    <string name="empty_weather_string">Aucune information disponible sur la météo.</string>
+    <string name="empty_forecast_list_server_down">Aucune information disponible sur la météo . Le serveur ne renvoie les données .</string>
+    <string name="empty_forecast_list_server_error">Aucune information disponible sur la météo . Le serveur ne retourne pas de données valides .</string>
+    <string name="no_internet_weather_string">Pas de connexion Internet. Impossible de récupérer les données météorologiques .</string>
+    <string name="no_internet">Pas de connexion Internet.</string>
+    <string name="no_valid_application">Aucune demande correspondante trouvée pour gérer cette fonctionnalité .</string>
+    <string name="empty_forecast_invalid_location">emplacement spécifié invalide aucune donnée est renvoyée par le serveur .</string>
+
+    <!--Strings related to widget-->
+    <string name="widget_today_title">La météo d\'aujourd\'hui</string>
+    <string name="title_activity_spash_screen">Écran de démarrage</string>
+
+    <!--Strings related to marshmallow permission-->
+    <string name="marshmallow_permission_msg">l\'accès à l\'application <xliff:g id="service">%1$s</xliff:g> le service a été révoqué .
+    Pour activer le même , aller à App Info- > Autorisations.</string>
+    <string name="marshmallowPositive">D\'accord</string>
+    <string name="marshmallowNegative">Annuler</string>
+
+    <!--Strings related to weather desc-->
+    <string name="w_2xx">Orage</string>
+    <string name="w_3xx">Bruine</string>
+    <string name="w_5xx">Pluie</string>
+    <string name="w_6xx">Neige</string>
+    <string name="w_7xx">Atmosphère</string>
+    <string name="w_800">Clair</string>
+    <string name="w_80x">Des nuages</string>
+    <string name="w_90x">Extrême</string>
+    <string name="w_9xx">Vent</string>
+
+    <!--Strings related to weather detailed desc-->
+    <!--Thunderstorm-->
+    <string name="wd_200">orage avec pluie</string>
+    <string name="wd_201">orage avec pluie</string>
+    <string name="wd_202">orage avec de fortes pluies</string>
+    <string name="wd_210">orage lumière</string>
+    <string name="wd_211">orage</string>
+    <string name="wd_212">orage violent</string>
+    <string name="wd_221">orage lambeaux</string>
+    <string name="wd_230">orage avec pluie</string>
+    <string name="wd_231">orage avec pluie</string>
+    <string name="wd_232">orage avec pluie lourde</string>
+    <!--Drizzle-->
+    <string name="wd_300">intensité lumineuse bruine</string>
+    <string name="wd_301">bruine</string>
+    <string name="wd_302">lourde intensité bruine</string>
+    <string name="wd_310">intensité modérée pluie</string>
+    <string name="wd_311">bruine pluie</string>
+    <string name="wd_312">intensité lourde bruine pluie</string>
+    <string name="wd_313">douche de pluie et de la bruine</string>
+    <string name="wd_314">averse de pluie et de la bruine</string>
+    <string name="wd_321">douche pluie</string>
+    <!--Rain-->
+    <string name="wd_500">pluie légère</string>
+    <string name="wd_501">pluie modérée</string>
+    <string name="wd_502">fortes pluies d\'intensité</string>
+    <string name="wd_503">très fortes pluies</string>
+    <string name="wd_504">extrême pluie</string>
+    <string name="wd_511">pluie verglaçante</string>
+    <string name="wd_520">intensité lumineuse douche pluie</string>
+    <string name="wd_521">douche pluie</string>
+    <string name="wd_522">fortes pluies d\'intensité</string>
+    <string name="wd_531">lambeaux douche pluie</string>
+    <!--Snow-->
+    <string name="wd_600">neige légère</string>
+    <string name="wd_601">neige</string>
+    <string name="wd_602">beaucoup de neige</string>
+    <string name="wd_611">neige fondue</string>
+    <string name="wd_612">douche grésil</string>
+    <string name="wd_615">pluie et la neige</string>
+    <string name="wd_616">pluie et la neige</string>
+    <string name="wd_620">neige légère averse</string>
+    <string name="wd_621">douche neige</string>
+    <string name="wd_622">lourde neige de douche</string>
+    <!--Atmosphere-->
+    <string name="wd_701">brouillard</string>
+    <string name="wd_711">fumée</string>
+    <string name="wd_721">brume</string>
+    <string name="wd_731">le sable, les poussières tourbillonne</string>
+    <string name="wd_741">brouillard</string>
+    <string name="wd_751">le sable</string>
+    <string name="wd_761">poussière</string>
+    <string name="wd_762">cendre volcanique</string>
+    <string name="wd_771">grains</string>
+    <string name="wd_781">tornade</string>
+    <!--Clear-->
+    <string name="wd_800">ciel clair</string>
+    <!--Clouds-->
+    <string name="wd_801">quelques nuages</string>
+    <string name="wd_802">nuages ​​dispersés</string>
+    <string name="wd_803">nuages</string>
+    <string name="wd_804">ciel couvert</string>
+    <!--Extreme-->
+    <string name="wd_900">tornade</string>
+    <string name="wd_901">tempête tropicale</string>
+    <string name="wd_902">ouragan</string>
+    <string name="wd_903">du froid</string>
+    <string name="wd_904">chaud</string>
+    <string name="wd_905">venteux</string>
+    <string name="wd_906">saluer</string>
+    <!--Wind-->
+    <string name="wd_951">calme</string>
+    <string name="wd_952">légère brise</string>
+    <string name="wd_953">petite brise</string>
+    <string name="wd_954">Jolie brise</string>
+    <string name="wd_955">brise fraîche</string>
+    <string name="wd_956">forte brise</string>
+    <string name="wd_957">grand vent , près de Gale</string>
+    <string name="wd_958">coup de vent</string>
+    <string name="wd_959">tempête sévère</string>
+    <string name="wd_960">orage</string>
+    <string name="wd_961">tempête violente</string>
+    <string name="wd_962">ouragan</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MainActivityFragment"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_forecast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="@string/empty_weather_string"
+        android:id="@+id/listview_forecast_empty"
+        android:fontFamily="sans-serif-condensed"
+        android:textAppearance="?android:textAppearanceMedium"/>
+    <ImageView
+        android:id="@+id/image_forecast_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/nowthr"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        />
+</FrameLayout>

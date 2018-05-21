@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycler_BG"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="7dp">
+
+    <TextView
+        android:id="@+id/main_City_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/list_item_icon"
+        android:layout_width="@dimen/forecast_icon"
+        android:layout_height="@dimen/forecast_icon"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:adjustViewBounds="true" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_item_date_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AppTheme.BaseText.Dark"
+            tools:text="Tomorrow"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/list_item_forecast_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AppTheme.BaseText.Dark"
+            tools:text="Clear"
+            android:textAppearance="?android:textAppearanceSmall" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/list_item_high_textview"
+        android:layout_width="@dimen/forecast_text_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="@dimen/forecast_temperature_space"
+        android:layout_marginRight="@dimen/forecast_temperature_space"
+        style="@style/AppTheme.BaseText.Dark"
+        tools:text="21o"
+        android:textColor="@color/primary_text"
+        tools:textSize="@dimen/forecast_text_size" />
+
+    <TextView
+        android:id="@+id/list_item_low_textview"
+        android:layout_width="@dimen/forecast_text_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        style="@style/AppTheme.BaseText.Light"
+        tools:text="8o"
+        android:textColor="@color/detail_accent_label"
+        tools:textSize="@dimen/forecast_text_size" />
+
+</LinearLayout>
