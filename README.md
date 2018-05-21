@@ -1,6 +1,10 @@
 # WeatherKing
 Android repo representing an app which shows clean and simple weather forecast
+
+
 PLAY STORE URL:- https://play.google.com/store/apps/details?id=com.vilakshan.weathermaster
+
+
 App Features:- 
 1.	Detail weather information starting with current day and 13 days forecast.
 2.	Provide all important weather parameters like weather description, high and low temperature, humidity, wind and pressure and a cool icon to represent target weather.
